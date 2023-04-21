@@ -162,7 +162,7 @@ formatters.setup {
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
     filetypes = { "typescript", "typescriptreact" },
   },
-  { command = "dotnet-cshapier", filetypes = { "c_sharp" } },
+  { command = "dotnet-csharpier", filetypes = { "c_sharp" } },
 }
 
 -- -- set additional linters
@@ -226,6 +226,8 @@ lvim.plugins = {
       })
     end
   },
+{"tpope/vim-surround"},
+
 }
 
 
