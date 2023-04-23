@@ -224,10 +224,10 @@ lvim.plugins = {
       })
     end
   },
-{"tpope/vim-surround"},
+  {"tpope/vim-surround"},
   {"OmniSharp/omnisharp-vim"},
   {"puremourning/vimspector"},
-{
+  {
     'vim-test/vim-test',
     keys = {
       { "<leader>vtf", ":TestFile<CR>", desc = "Test file" },
