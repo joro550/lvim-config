@@ -3,7 +3,7 @@ local dap = require('dap')
 
 dap.adapters.coreclr = {
   type = 'executable',
-  command = 'C:/Users/Mark/scoop/apps/netcoredbg/current',
+  command = 'C:/Users/Mark/scoop/apps/netcoredbg/current/netcoredbg.exe',
   args = {'--interpreter=vscode'}
 }
 
